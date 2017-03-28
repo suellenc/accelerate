@@ -20,6 +20,15 @@
 .button {
     background: none repeat scroll 0 0 #45ac9d;
 }
+#masthead nav ul li {
+	float: left;
+	margin: 0px 0px;
+}
+
+/* blog post on homepage */
+.recent-posts {
+	overflow: hidden;
+}
 
 .blog-post{
 	width:50%;
@@ -42,3 +51,98 @@
 	color: #45ac9d;
 	text-transform: uppercase;
 }
+
+/* Case Studies */
+
+h5 {
+	font-size: 14px;
+	font-weight: lighter;
+	margin: 0 0 10px 0;
+}
+
+h6 {
+	font-size: 14px;
+	font-weight: normal;
+	text-transform: uppercase;
+	margin: 0 0 10px 0;
+}
+
+article.case-study {
+	margin: 40px 0 0;
+}
+
+aside.case-study-sidebar {
+	float: left;
+	width:314px;
+	margin: 0 20px 0 0;
+
+}
+div.case-study-images {
+	float: left;
+	width:606px;
+}
+div.case-study-images img {
+	margin:30px 0 0 0;
+	display: block;
+	border:1px solid #dddddd; 
+}
+
+/*
+.top-nav {
+	float: right;
+	padding-top: 22px;
+}
+.top-nav-link {
+	color: inherit;
+	display: inline-block;
+	font-size: 14px;
+	line-height: normal;
+	margin-left: 35px;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+.top-nav-link:hover {
+	border-bottom: 1px solid;
+} 
+
+
+.navigation {
+	background: #fff;
+  border-top: dotted #bfbfbf;
+  border-width: 1px 0;
+  clear: both;
+  font: 0.8em/4.08 'OpenSans', Arial, sans-serif;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+}
+.navigation a {
+	color: #150300;
+	text-decoration: none;
+	font-weight: 600;
+	padding: 0 12px;
+}
+.navigation a:hover {
+	text-decoration: underline;
+}
+.navigation .left,
+.navigation .right {
+	color: #45ac9d;
+	text-transform: uppercase;
+}
+.navigation .left {
+	float: left;
+}
+.navigation .right {
+	float: right;
+}
+.navigation .pages {
+	color: #a6a6a6;
+}
+
+
+*/
+
+
+
+
